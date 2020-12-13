@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#F8BC02"/>
+    <meta name="Description" content="Favorite restaurant catalogue, Gavilan Resto App Katalog">
+    <link rel="icon" href="/images/favicon.png">
+    <link rel="apple-touch-icon" href="/images/icons/icon-192x192.png">
+    <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
+    <title>Gavilan Resto App</title>
+</head>
+
+<body>
+    <loading-web style="display: none;"></loading-web>
+    <div class="notif" style="display: none;">
+        <div class="container-notif" id="notif"></div>
+    </div>
+    <a href="#katalog" class="skip">
+        <button>Skip to content</button>
+    </a>
+    <div id="nav-mobile">
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/#/favorite">Favorite</a>
+            </li>
+            <li>
+                <a href="https://facebook.com/zankenzu">About Us</a>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <nav>
+            <div class="container-nav">
+                <div class="mobile-trigger">
+                    <a id="hamburger">☰</a>
+                </div>
+                <div class="logo">
+                    <img src="./images/logo/logo.png" alt="logo" width="50px" />
+                    <h1>Gavilan Resto App</h1>
+                </div>
+                <div class="nav-link">
+                    <a href="/">
+                        <span>Home</span>
+                    </a>
+                    <a href="/#/favorite">
+                        <span>Favorite</span>
+                    </a>
+                    <a href="https://facebook.com/zankenzu">
+                        <span>About Us</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="heroku">
+            <div class="container-hero">
+                <h1>Bon Appetit</h1>
+                <h2>Gavilan Resto App Katalog</h2>
+                <a href="#katalog">
+                    <button aria-label="lihat katalog" class="btn-katalog">Lihat Katalog</button>
+                </a>
+            </div>
+        </div>
+        <div id="mainContent"></div>
+        <footer>
+            <small>Copyright &copy; 2020 - Gavilan Resto App</small>
+        </footer>
+    </main>
+</body>
+
+</html>
